@@ -83,6 +83,7 @@ import pytesseract
 import fitz  # PyMuPDF for PDFs
 from PIL import Image
 import google.generativeai as genai
+import easyocr
 
 # Configure API Key
 genai.configure(api_key="AIzaSyBuyeWOqnf3Q2sudtnywmOrXtx9PXcy88o")
@@ -97,10 +98,11 @@ def extract_text_from_pdf(pdf_file):
     return text.strip()
 
 def extract_text_from_image(image_file):
-    """Extracts text from an image using Tesseract OCR with optimized settings."""
+    """Extracts text from an image using EasyOCR instead of Tesseract."""
+    reader = easyocr.Reader(['en'])  # English language
     image = Image.open(image_file)
-    text = pytesseract.image_to_string(image, config="--oem 3 --psm 6")
-    return text.strip()
+    result = reader.readtext(image, detail=0)
+    return "\n".join(result)
 
 def clean_extracted_text(text):
     """Cleans extracted text to remove unwanted artifacts."""
