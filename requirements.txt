@@ -3,3 +3,4 @@ google-generativeai
 pymupdf
 pytesseract
 pillow
+easyocr
