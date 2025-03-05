@@ -4,4 +4,5 @@ pymupdf
 pytesseract
 pillow
 easyocr
+pandas
 python-dotenv
