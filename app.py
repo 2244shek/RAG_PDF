@@ -84,12 +84,17 @@ import fitz  # PyMuPDF for PDFs
 from PIL import Image
 import google.generativeai as genai
 import easyocr
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+GOOGLE_API_KEY = os.getenv("Google_API")
 
 # Configure API Key
-genai.configure(api_key="AIzaSyBuyeWOqnf3Q2sudtnywmOrXtx9PXcy88o")
+genai.configure(api_key=GOOGLE_API_KEY)
 
 # Load the Gemini model
-gemini_model = genai.GenerativeModel("gemini-2.0-pro-exp-02-05")
+gemini_model = genai.GenerativeModel("gemini-2.0-flash-exp")
 
 def extract_text_from_pdf(pdf_file):
     """Extracts text from PDF with better accuracy."""
