@@ -53,12 +53,11 @@ streamlit run app.py
 
 ## 📂 Project Structure
 📂 ai-form-extractor
-│-- 📜 app.py                # Main Streamlit app
-│-- 📜 requirements.txt      # Dependencies
-│-- 📜 .env.example          # Example of API key setup
-│-- 📜 README.md             # Documentation
+**│-- 📜 app.py                # Main Streamlit app**
+**│-- 📜 requirements.txt      # Dependencies**
+**│-- 📜 .env.example          # Example of API key setup**
+**│-- 📜 README.md             # Documentation**
 
-ai-form-extractor/ ├── 📜 app.py # Main Streamlit app ├── 📜 requirements.txt # Dependencies ├── 📜 .env.example # Example of API key setup ├── 📜 README.md # Documentation ├── 📂 assets # Images, icons, etc. (optional) ├── 📂 data # Sample input/output files (optional) └── 📂 utils # Helper functions (optional)
 
 ---
 
