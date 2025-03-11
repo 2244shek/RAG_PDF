@@ -43,26 +43,26 @@ streamlit run app.py
 ---
 
 ## 🎯 Usage
-**Upload a PDF or image of a structured form.**  
-**Extract text using OCR (for images) or PDF parsing.**  
-**Convert text into structured JSON using AI.**  
-**Identify medical terms (optional).**  
-**Download JSON output for further use.**
+✅ **Upload a PDF or image of a structured form.**  
+✅ **Extract text using OCR (for images) or PDF parsing.**  
+✅ **Convert text into structured JSON using AI.**  
+✅ **Identify medical terms (optional).**  
+✅ **Download JSON output for further use.**
 
 ---
 
 ## 📂 Project Structure
-📂 ai-form-extractor
-**│-- 📜 app.py                # Main Streamlit app**  
-**│-- 📜 requirements.txt      # Dependencies**  
-**│-- 📜 .env.example          # Example of API key setup**  
-**│-- 📜 README.md             # Documentation**  
+📂 ai-form-extractor  
+** │-- 📜 app.py                # Main Streamlit app**  
+** │-- 📜 requirements.txt      # Dependencies**  
+** │-- 📜 .env.example          # Example of API key setup**  
+** │-- 📜 README.md             # Documentation**  
 
 
 ---
 
 ## ⚡ API Integration
 This app uses Google Gemini API to convert extracted text into structured JSON.  
-**Text Extraction → OCR (Tesseract) + PyMuPDF**  
-**AI Processing → Google Gemini API**  
-**Medical Terms Extraction → AI Categorization**  
+✅ **Text Extraction → OCR (Tesseract) + PyMuPDF**  
+✅ **AI Processing → Google Gemini API**  
+✅ **Medical Terms Extraction → AI Categorization**  
