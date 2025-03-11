@@ -40,6 +40,7 @@ GOOGLE_API_KEY=your_api_key_here
 ```
 streamlit run app.py
 ```
+---
 
 ## 🎯 Usage
 **Upload a PDF or image of a structured form.**
@@ -48,12 +49,16 @@ streamlit run app.py
 **Identify medical terms (optional).**
 **Download JSON output for further use.**
 
+---
+
 ## 📂 Project Structure
 📂 ai-form-extractor
 │-- 📜 app.py                # Main Streamlit app
 │-- 📜 requirements.txt      # Dependencies
 │-- 📜 .env.example          # Example of API key setup
 │-- 📜 README.md             # Documentation
+
+---
 
 ## ⚡ API Integration
 This app uses Google Gemini API to convert extracted text into structured JSON.
