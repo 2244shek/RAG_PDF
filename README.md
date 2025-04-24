@@ -13,6 +13,11 @@ Extract structured data from **PDFs and images** using AI! This Streamlit-based 
 ✅ **Supports Multi-Page PDFs & Various Image Formats** (PNG, JPG, JPEG).  
 
 ---
+![Screenshot 2025-04-24 231715](https://github.com/user-attachments/assets/04da0435-0b94-4f26-b435-de33edc0a9ec)
+![Screenshot 2025-04-24 231756](https://github.com/user-attachments/assets/2f67575a-83c0-4f08-aa07-09629ed3ce3a)
+![Screenshot 2025-04-24 231825](https://github.com/user-attachments/assets/ad801a53-4e66-42d6-b18c-f9af3881d506)
+
+----
 
 ## 🚀 Installation & Setup
 
